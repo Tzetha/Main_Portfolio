@@ -9,7 +9,7 @@ function Navigation({ currentPage, setCurrentPage }) {
   ];
 
   return (
-    <div className="fixed left-8 top-1/2 -translate-y-1/2 z-50">
+    <div className="flex flex-col fixed left-8 top-1/2 -translate-y-1/2 z-50">
       {/* Nickname/Logo Header - positioned above menu */}
       <div className="mb-12">
         <h2 className="text-3xl font-bold tracking-wide bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-700 bg-clip-text text-transparent drop-shadow-lg">

@@ -5,15 +5,15 @@ function AboutPage() {
   const techIcons = [
     { name: 'Python', image: '/icons/python.png' },
     { name: 'C#', image: '/icons/C.png' },
-    { name: 'C++', image: '/icons/c++.png' },
+    { name: 'C++', image: '/icons/C++.png' },
     { name: 'JavaScript', image: '/icons/JS.png' },
     { name: 'React', image: '/icons/react.png' },
     { name: 'Node.js', image: '/icons/node.png' },
     { name: 'HTML5', image: '/icons/HTML.png' },
     { name: 'CSS3', image: '/icons/CSS.png' },
     { name: 'Tailwind', image: '/icons/tailwind.png' },
-    { name: 'Github', image: '/icons/github.png' },
-    { name: 'Unity Engine', image: '/icons/unity.png' },
+    { name: 'Github', image: '/icons/Github.png' },
+    { name: 'Unity Engine', image: '/icons/Unity.png' },
     { name: 'GoDot', image: '/icons/godot.png' }
   ];
 
@@ -49,7 +49,7 @@ function AboutPage() {
           </div>
         </div>
 
-        {/* Skills */}
+        {/* Skills Section */}
         <div className="mb-16">
           <h3 className="text-3xl font-bold mb-8 text-center text-slate-100">
             Skills & Technologies
@@ -60,8 +60,17 @@ function AboutPage() {
             <div className="flex animate-scroll">
               {infiniteIcons.map((tech, index) => (
                 <div key={index} className="flex-shrink-0 mx-6">
-                  <div className="w-20 h-20 bg-slate-900/70 rounded-xl p-3 flex items-center justify-center hover:scale-110 transition shadow-lg border border-slate-700">
-                    <img src={tech.image} alt={tech.name} className="max-w-full max-h-full object-contain" />
+                  <div
+                    className="w-20 h-20 rounded-xl p-3 flex items-center justify-center
+                               bg-slate-900/70 shadow-lg border border-slate-700
+                               hover:scale-110 transition"
+                  >
+                    <img
+                      src={tech.image}
+                      alt={tech.name}
+                      className="max-w-full max-h-full object-contain"
+                      style={{ backgroundColor: 'transparent' }}
+                    />
                   </div>
                 </div>
               ))}
@@ -74,12 +83,9 @@ function AboutPage() {
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="
-                    flex items-center gap-3 p-4 rounded-lg
-                    bg-slate-800/70
-                    hover:bg-slate-700/70
-                    transition hover:scale-105
-                  "
+                  className="flex items-center gap-3 p-4 rounded-lg
+                             bg-slate-800/70 hover:bg-slate-700/70
+                             transition hover:scale-105"
                 >
                   <div className="w-2 h-2 bg-cyan-300 rounded-full" />
                   <span className="font-semibold text-slate-200">{skill}</span>
@@ -93,8 +99,17 @@ function AboutPage() {
             <div className="flex animate-scroll-reverse">
               {infiniteIcons.map((tech, index) => (
                 <div key={index} className="flex-shrink-0 mx-6">
-                  <div className="w-20 h-20 bg-slate-900/70 rounded-xl p-3 flex items-center justify-center hover:scale-110 transition shadow-lg border border-slate-700">
-                    <img src={tech.image} alt={tech.name} className="max-w-full max-h-full object-contain" />
+                  <div
+                    className="w-20 h-20 rounded-xl p-3 flex items-center justify-center
+                               bg-slate-900/70 shadow-lg border border-slate-700
+                               hover:scale-110 transition"
+                  >
+                    <img
+                      src={tech.image}
+                      alt={tech.name}
+                      className="max-w-full max-h-full object-contain"
+                      style={{ backgroundColor: 'transparent' }}
+                    />
                   </div>
                 </div>
               ))}
@@ -113,7 +128,7 @@ function AboutPage() {
             <div className="space-y-6">
               <div className="bg-slate-900/70 p-6 rounded-lg border-l-4 border-cyan-300 shadow-lg">
                 <h4 className="text-xl font-bold">Bachelor of Science in Computer Science</h4>
-                <h5 className="text-xl font-bold">Major in Artifical Intelligence</h5>
+                <h5 className="text-xl font-bold">Major in Artificial Intelligence</h5>
                 <p className="text-slate-400">West Visayas State University - Main Campus • 2022 – 2026</p>
                 <p className="text-slate-300 mt-3">
                   DOST Scholar | Consistent Dean's Lister | Running for Latin Honors
