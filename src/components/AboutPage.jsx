@@ -5,15 +5,15 @@ function AboutPage() {
   const techIcons = [
     { name: 'Python', image: '/icons/python.png' },
     { name: 'C#', image: '/icons/C.png' },
-    { name: 'C++', image: '/icons/C++.png' },
+    { name: 'C++', image: '/icons/c++.png' },
     { name: 'JavaScript', image: '/icons/JS.png' },
     { name: 'React', image: '/icons/react.png' },
     { name: 'Node.js', image: '/icons/node.png' },
     { name: 'HTML5', image: '/icons/HTML.png' },
     { name: 'CSS3', image: '/icons/CSS.png' },
     { name: 'Tailwind', image: '/icons/tailwind.png' },
-    { name: 'Github', image: '/icons/Github.png' },
-    { name: 'Unity Engine', image: '/icons/Unity.png' },
+    { name: 'Github', image: '/icons/github.png' },
+    { name: 'Unity Engine', image: '/icons/unity.png' },
     { name: 'GoDot', image: '/icons/godot.png' }
   ];
 
