@@ -27,11 +27,11 @@ function ProjectsPage() {
       title: 'TaleScape',
       description: 'A web-based platform that generates unique storybooks for childrens and families using AI',
       tech: ['NextJS', 'React', 'Tailwind CSS','TypeScript'],
-      image: '/Projects/Talescape.png', // Make sure this file exists in "public/Projects/Talescape.png"
+      image: '/Projects/Talescape.png',
       link: 'https://tale-scape.vercel.app'
     },
     {
-      title: 'Damuhal Cafe',
+      title: 'Damuhals Cafe',
       description: 'Coffee Shop website we collectively created for our Web Dev course.',
       tech: ['Typescript', 'Tailwind CSS', 'React'],
       image: '/Projects/CoffeeShop.png',
@@ -52,7 +52,7 @@ function ProjectsPage() {
         {/* Page Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-white mb-4 drop-shadow-lg">
-            My <span className="text-yellow-300">Projects</span>
+            My <span className="text-cyan-300">Projects</span>
           </h2>
           <p className="text-xl text-white/90 drop-shadow">A showcase of my recent work and creations</p>
         </div>
@@ -62,10 +62,10 @@ function ProjectsPage() {
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="bg-white/90 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              className="bg-gray-900/80 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-white/10"
             >
               {/* Project Image */}
-              <div className="h-48 w-full relative overflow-hidden rounded-t-xl">
+              <div className="h-48 w-full relative overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -75,15 +75,15 @@ function ProjectsPage() {
 
               {/* Project Info */}
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{project.title}</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">{project.description}</p>
+                <h3 className="text-2xl font-bold text-white mb-3">{project.title}</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
                 
                 {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, i) => (
                     <span 
                       key={i}
-                      className="px-3 py-1 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-sm rounded-full font-semibold"
+                      className="px-3 py-1 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm rounded-full font-semibold"
                     >
                       {tech}
                     </span>
@@ -92,8 +92,10 @@ function ProjectsPage() {
 
                 {/* View Project Button */}
                 <a 
-                  href={project.link} target="_blank" rel="noopener noreferrer"
-                  className="inline-block w-full text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition"
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block w-full text-center bg-gradient-to-r from-cyan-600 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-cyan-700 hover:to-blue-700 transition shadow-lg"
                 >
                   View Project →
                 </a>

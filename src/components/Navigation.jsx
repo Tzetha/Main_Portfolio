@@ -9,7 +9,7 @@ function Navigation({ currentPage, setCurrentPage }) {
   ];
 
   return (
-    <div className="fixed top-0left-8 top-1/2 -translate-y-1/2 z-50">
+    <div className="fixed top-0 left-8 top-1/2 -translate-y-1/2 z-50">
       <div className="flex flex-col gap-6 items-start">
         {navItems.map((item) => (
           <button
