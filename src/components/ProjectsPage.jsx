@@ -18,24 +18,24 @@ function ProjectsPage() {
     },
     {
       title: 'Portfolio Website',
-      description: 'Modern, responsive portfolio website with smooth animations and interactive elements.',
+      description: 'Modern and responsive portfolio website I created to track my projects and showcase my skills as a developer.',
       tech: ['React', 'CSS', 'JavaScript', 'Vite'],
       image: '/Projects/Portfolio.png',
       link: '#'
     },
     {
       title: 'TaleScape',
-      description: 'A web-based platform that generates unique storybooks for childrens and families using AI',
+      description: 'A web-based platform that generates unique storybooks for childrens and families using AI where imagination is the only limit.',
       tech: ['NextJS', 'React', 'Tailwind CSS','TypeScript'],
       image: '/Projects/Talescape.png',
       link: 'https://tale-scape.vercel.app'
     },
     {
-      title: 'Damuhals Cafe',
-      description: 'Coffee Shop website we collectively created for our Web Dev course.',
-      tech: ['Typescript', 'Tailwind CSS', 'React'],
-      image: '/Projects/CoffeeShop.png',
-      link: '#'
+      title: 'AI/ML Projects',
+      description: 'Compilation of Machine Learning and AI projects I have created using Python and uploaded to Huggingface.',
+      tech: ['Huggingface', 'Python', 'Machine Learning', 'AI'],
+      image: '/Projects/AI.png',
+      link: 'https://huggingface.co/Tzetha'
     },
     {
       title: 'iTestic',

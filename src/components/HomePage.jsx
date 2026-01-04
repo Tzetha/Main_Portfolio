@@ -4,7 +4,6 @@ import Header from './Header';
 function HomePage() {
   return (
     <div className="min-h-screen relative text-slate-200">
-        <Header />
       {/* Main */}
       <div className="flex items-center justify-center min-h-screen px-6 pt-24">
         <div className="max-w-6xl mx-auto w-full">
@@ -59,7 +58,7 @@ function HomePage() {
               {/* Socials */}
               <div className="flex gap-5 pt-4">
                 {/* GitHub */}
-                <a href="#" className="text-slate-300 hover:text-cyan-300 transition">
+                <a href="https://github.com/Tzetha" className="text-slate-300 hover:text-cyan-300 transition">
                   <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 0c-6.626 0-12 5.373-12 12
                       0 5.302 3.438 9.8 8.207 11.387
@@ -88,7 +87,7 @@ function HomePage() {
                 </a>
 
                 {/* LinkedIn */}
-                <a href="#" className="text-slate-300 hover:text-cyan-300 transition">
+                <a href="https://www.linkedin.com/in/ethan-soncio-260816194/" className="text-slate-300 hover:text-cyan-300 transition">
                   <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14
                       c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14
@@ -102,7 +101,7 @@ function HomePage() {
                 </a>
 
                 {/* Facebook */}
-                <a href="#" className="text-slate-300 hover:text-cyan-300 transition">
+                <a href="https://www.facebook.com/15Gab.S/" className="text-slate-300 hover:text-cyan-300 transition">
                   <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348
                       C0 23.403.597 24 1.326 24h11.495v-9.294H9.691v-3.622
@@ -116,7 +115,7 @@ function HomePage() {
                 </a>
 
                 {/* Instagram */}
-                <a href="#" className="text-slate-300 hover:text-cyan-300 transition">
+                <a href="https://www.instagram.com/lmntriiixx/" className="text-slate-300 hover:text-cyan-300 transition">
                   <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2.163c3.204 0 3.584.012 4.85.07
                       1.366.062 2.633.343 3.608 1.318

@@ -22,8 +22,6 @@ function AboutPage() {
 
   return (
     <div className="min-h-screen py-20 px-6 text-slate-200">
-      <Header />
-
       <div className="max-w-6xl mx-auto pt-32">
 
         {/* Page Header */}
